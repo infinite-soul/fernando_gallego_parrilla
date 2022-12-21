@@ -15,24 +15,15 @@ footer ul {
 
 a {
     text-decoration: none;
-    color:#ffb0b0
+    color: #ffb0b0
 }
 
-header {
-    background-color: #652120;
-    display: flex;
-}
-
-nav {
-    width: 50%;
-}
-
-main{
+main {
     background-color: #e0c4b9;
 }
 
-main div{
-    color:black;
+main div {
+    color: black;
 }
 
 main ol {
@@ -43,16 +34,16 @@ main ul {
     padding: 30px;
 }
 
-article{
+article {
     padding: 30px;
 }
 
-img{
+img {
     width: 100%
 }
 
-.parrafo_medio{
-    display:flex;
+.parrafo_medio {
+    display: flex;
     padding: 30px;
 }
 
@@ -82,28 +73,22 @@ img{
     background-color: #3e1a15;
 }
 
-header div {
-    width: 50%;
-}
-
 header div img {
-    padding: 5px;
-    border-radius: 50%;
-
+    padding: 10px;
     width: 15%;
 }
 
 h1 {
     text-align: center;
-    color:black;
+    color: black;
 }
 
-#historia{
+#historia {
     text-align: center;
     padding: 20px;
 }
 
-form{
+form {
     padding: 40px;
 }
 
@@ -116,22 +101,22 @@ form{
     width: 100%;
 }
 
-.galeria{
+.galeria {
     display: flex;
     padding: 5px;
 }
 
-.galeria_columna{
+.galeria_columna {
     flex: 50%;
     padding: 5px;
 }
 
-.parrafos_multiples{
+.parrafos_multiples {
     display: flex;
     padding: 5px;
 }
 
-.parrafos_multiples_mitad{
+.parrafos_multiples_mitad {
     flex: 50%;
     padding: 40px;
 }
@@ -158,13 +143,63 @@ footer ul li a {
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    color: #e0c4b9;
-}
-
-.color_redes{
-    color: #e0c4b9;
 }
 
 i {
     font-size: 40px;
+}
+
+/*@MEDIAS*/
+@media (max-width: 768px) {
+
+    .parrafos_multiples {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .galeria {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .galeria_columna {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .parrafos_multiples {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .galeria {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .galeria_columna {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+}
+
+@media (max-width: 1440px) {
+    .parrafos_multiples {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .galeria {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .galeria_columna {
+        flex-direction: column;
+        padding: 0px;
+    }
 }

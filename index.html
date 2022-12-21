@@ -11,90 +11,156 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.cdnfonts.com/css/glass-antiqua" rel="stylesheet">
 
+    <!--CDN CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
     <!--CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
-<body>
+<body class="grid">
+    <!--Header-->
     <header>
-        <div>
-            <a href="./index.html"><img class="logo" src="./assets/img/logo.svg" alt=""></a>
-        </div>
-        <nav>
-            <!-- ul>li*5>a -->
-            <ul class="navegacion">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/productos.html">Productos</a></li>
-                <li><a href="./pages/servicios.html">Servicios</a></li>
-                <li><a href="./pages/blog.html">Blog</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
+        <!--Intento de Navbar responsive que ubica raro el logo-->
+        <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #652120;">
+            <div class="container-fluid">
+                <!--Logo clickeable y Anvorgesa-->
+                <div>
+
+                    <!--Logo clickeable-->
+                    <a class="navbar-brand" href="./index.html">
+                        <span><img class="logo" src="./assets/img/logo.svg" alt="">
+                        </span>
+                    </a>
+                    <div></div>
+                    <!--Anvorgesa-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                </div>
+
+                <!-- Lista de cinco botones para las páginas...  -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto font-weight fs-5">
+                        <li class="nav-item"><a class="nav-link" href="./pages/productos.html">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/servicios.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <h1>FERNANDO GALLEGO PARRILLA</h1>
         <section class="imagen_principal">
-            <img src="./assets/img/parrilla.jpg" alt="asado en parrilla">
+            <div class="wow animate__animated animate__fadeInDown">
+                <img src="./assets/img/parrilla.jpg" alt="asado en parrilla">
+            </div>
         </section>
         <div>
-            <h2 id="historia">NUESTRA HISTORIA</h2>
+            <h1>FERNANDO GALLEGO PARRILLA</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt mollitia cum animi, qui
+                deleniti fugiat! Obcaecati, dolorum quaerat quis dolore dolores inventore nihil aliquid ex laborum
+                cumque adipisci, corrupti eius omnis ducimus sed voluptatem exercitationem sequi nulla, quos error
+                dicta odio vitae. Autem, nostrum magni commodi tenetur ex ut quis illo eligendi aspernatur! Aperiam
+                praesentium quis officia voluptate porro debitis, veniam minima ex ipsa maiores. Dolor quibusdam eos
+                ea vitae
+            </p>
+            <div class="ant-space ant-space-horizontal ant-space-align-center banner-actions" style="gap: 24px;"></div>
         </div>
-        <div class="parrafos_multiples">
-            <div class="parrafos_multiples_mitad">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt mollitia cum animi, qui
-                    deleniti fugiat! Obcaecati, dolorum quaerat quis dolore dolores inventore nihil aliquid ex laborum
-                    cumque adipisci, corrupti eius omnis ducimus sed voluptatem exercitationem sequi nulla, quos error
-                    dicta odio vitae. Autem, nostrum magni commodi tenetur ex ut quis illo eligendi aspernatur! Aperiam
-                    praesentium quis officia voluptate porro debitis, veniam minima ex ipsa maiores. Dolor quibusdam eos
-                    ea vitae, nobis consequuntur nisi atque voluptatem repellat sunt laborum autem asperiores culpa,
-                    molestiae aperiam perferendis, corporis magnam at accusamus excepturi cupiditate corrupti. Totam
-                    dolorem atque, itaque est, voluptates alias, minima id quod earum fuga dignissimos reiciendis enim.
-                    Iste illum quidem autem odio accusamus sed sint, numquam facere eum natus hic at obcaecati maiores
-                    magni quae similique quos. Dolorem placeat adipisci, nisi aut numquam fugit quas, doloribus delectus
-                    eaque expedita quaerat. Repellat reiciendis quidem dolorum, quos ducimus eos molestiae impedit,
-                    natus eum blanditiis beatae laudantium sit sapiente soluta. In, rem dolor. Laudantium excepturi
-                    voluptate sunt, quidem facilis vitae. Nam vel fugiat tempora eaque, enim itaque totam impedit
-                    asperiores possimus, soluta ipsam. Incidunt non, magnam laboriosam praesentium sapiente explicabo
-                    porro impedit, saepe minima nam ea labore recusandae enim reprehenderit animi ipsa facere? Quia,
-                    minus necessitatibus omnis doloremque repellendus ipsum, maxime numquam magnam architecto error
-                    eveniet commodi in consequatur, nobis odit aliquid quod? At necessitatibus sint nulla libero
-                    deserunt odit possimus voluptate officia vel, magni minima suscipit magnam molestias reiciendis
-                    voluptatum ullam blanditiis incidunt maiores? Dolores qui saepe laudantium sequi ipsum labore esse
-                    fugiat dolor minus nisi aliquid doloribus veritatis autem iste dicta non, sit tempore debitis est
-                    maxime odio rem itaque. Quia quam eum voluptas, eaque, nulla enim magni, id voluptatibus ducimus
-                    debitis aspernatur. Nobis nulla quae cupiditate velit in, provident doloribus porro numquam nesciunt
-                    quis tempora quo, suscipit rerum molestiae? Et?
-                </p>
-            </div>
 
-            <div class="parrafos_multiples_mitad">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, possimus quidem ea alias quam
-                    omnis at iusto quasi. Est ipsam possimus repellat ea quasi exercitationem placeat molestias, vero
-                    praesentium corporis sed voluptas necessitatibus officia perferendis eius. Numquam a harum impedit
-                    error dolorum quo! Aperiam sunt mollitia distinctio facere aspernatur, explicabo earum porro soluta
-                    quos, veritatis laboriosam vitae corrupti ratione aliquid id officia iure voluptas accusantium,
-                    beatae est saepe a accusamus esse autem? Quae voluptate dignissimos minima, commodi aliquam
-                    repellendus harum qui ullam iure aut. Rem a blanditiis libero ipsam impedit dolorum neque error,
-                    possimus nostrum qui. Iste repellendus at eius tempora similique labore laudantium nulla doloremque
-                    inventore ipsa quae ex molestiae facere mollitia tenetur, voluptatum, porro, atque illo facilis
-                    voluptatibus non vel earum blanditiis. Rem modi perspiciatis dolorem molestiae dolores asperiores
-                    obcaecati quos ipsam fugit, eligendi doloribus aliquid quas saepe suscipit quasi magni animi hic
-                    nam, nostrum cumque corporis, quis sit? Atque, deleniti ducimus! A iusto quidem exercitationem! Nam
-                    totam labore, doloremque ea nostrum incidunt corrupti esse, veritatis et reiciendis ad atque debitis
-                    repellendus quae animi aut, sunt culpa illo nobis porro saepe quos ex unde! Possimus ab harum esse
-                    modi eaque voluptate. Deserunt tempora reprehenderit ab placeat enim ut sapiente optio eum dolores
-                    assumenda hic ratione nostrum animi, odit laudantium? Enim harum architecto sunt natus ex adipisci
-                    dicta mollitia fuga, aspernatur vel, eligendi tempora itaque veritatis perferendis numquam sed
-                    cupiditate dolores iusto incidunt repudiandae tenetur. Vel quia, recusandae sapiente excepturi
-                    tempora exercitationem delectus tempore natus velit beatae consectetur dolorum pariatur repudiandae
-                    ea mollitia error praesentium et nulla commodi aperiam ut doloribus reprehenderit. Animi cupiditate
-                    corporis quam sapiente inventore quidem. Voluptates exercitationem eveniet veniam non deserunt
-                    doloremque vel, incidunt earum, animi blanditiis enim iusto laborum, et doloribus nam iure. Suscipit
-                    perferendis quis quia debitis? Mollitia, in porro? Eligendi, excepturi vitae!
-                </p>
+        <section>
+            <div>
+                <h2 id="historia">NUESTRA HISTORIA</h2>
             </div>
-        </div>
+            <div class="parrafos_multiples">
+                <div class="parrafos_multiples_mitad">
+                    <p class="wow animate__animated animate__fadeInLeft">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Dolore deserunt mollitia cum animi, qui
+                        deleniti fugiat! Obcaecati, dolorum quaerat quis dolore dolores inventore nihil aliquid ex
+                        laborum
+                        cumque adipisci, corrupti eius omnis ducimus sed voluptatem exercitationem sequi nulla, quos
+                        error
+                        dicta odio vitae. Autem, nostrum magni commodi tenetur ex ut quis illo eligendi aspernatur!
+                        Aperiam
+                        praesentium quis officia voluptate porro debitis, veniam minima ex ipsa maiores. Dolor quibusdam
+                        eos
+                        ea vitae, nobis consequuntur nisi atque voluptatem repellat sunt laborum autem asperiores culpa,
+                        molestiae aperiam perferendis, corporis magnam at accusamus excepturi cupiditate corrupti. Totam
+                        dolorem atque, itaque est, voluptates alias, minima id quod earum fuga dignissimos reiciendis
+                        enim.
+                        Iste illum quidem autem odio accusamus sed sint, numquam facere eum natus hic at obcaecati
+                        maiores
+                        magni quae similique quos. Dolorem placeat adipisci, nisi aut numquam fugit quas, doloribus
+                        delectus
+                        eaque expedita quaerat. Repellat reiciendis quidem dolorum, quos ducimus eos molestiae impedit,
+                        natus eum blanditiis beatae laudantium sit sapiente soluta. In, rem dolor. Laudantium excepturi
+                        voluptate sunt, quidem facilis vitae. Nam vel fugiat tempora eaque, enim itaque totam impedit
+                        asperiores possimus, soluta ipsam. Incidunt non, magnam laboriosam praesentium sapiente
+                        explicabo
+                        porro impedit, saepe minima nam ea labore recusandae enim reprehenderit animi ipsa facere? Quia,
+                        minus necessitatibus omnis doloremque repellendus ipsum, maxime numquam magnam architecto error
+                        eveniet commodi in consequatur, nobis odit aliquid quod? At necessitatibus sint nulla libero
+                        deserunt odit possimus voluptate officia vel, magni minima suscipit magnam molestias reiciendis
+                        voluptatum ullam blanditiis incidunt maiores? Dolores qui saepe laudantium sequi ipsum labore
+                        esse
+                        fugiat dolor minus nisi aliquid doloribus veritatis autem iste dicta non, sit tempore debitis
+                        est
+                        maxime odio rem itaque. Quia quam eum voluptas, eaque, nulla enim magni, id voluptatibus ducimus
+                        debitis aspernatur. Nobis nulla quae cupiditate velit in, provident doloribus porro numquam
+                        nesciunt
+                        quis tempora quo, suscipit rerum molestiae? Et?
+                    </p>
+                </div>
+
+                <div class="parrafos_multiples_mitad">
+                    <p class="wow animate__animated animate__fadeInRight">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, possimus quidem ea alias
+                        quam
+                        omnis at iusto quasi. Est ipsam possimus repellat ea quasi exercitationem placeat molestias,
+                        vero
+                        praesentium corporis sed voluptas necessitatibus officia perferendis eius. Numquam a harum
+                        impedit
+                        error dolorum quo! Aperiam sunt mollitia distinctio facere aspernatur, explicabo earum porro
+                        soluta
+                        quos, veritatis laboriosam vitae corrupti ratione aliquid id officia iure voluptas accusantium,
+                        beatae est saepe a accusamus esse autem? Quae voluptate dignissimos minima, commodi aliquam
+                        repellendus harum qui ullam iure aut. Rem a blanditiis libero ipsam impedit dolorum neque error,
+                        possimus nostrum qui. Iste repellendus at eius tempora similique labore laudantium nulla
+                        doloremque
+                        inventore ipsa quae ex molestiae facere mollitia tenetur, voluptatum, porro, atque illo facilis
+                        voluptatibus non vel earum blanditiis. Rem modi perspiciatis dolorem molestiae dolores
+                        asperiores
+                        obcaecati quos ipsam fugit, eligendi doloribus aliquid quas saepe suscipit quasi magni animi hic
+                        nam, nostrum cumque corporis, quis sit? Atque, deleniti ducimus! A iusto quidem exercitationem!
+                        Nam
+                        totam labore, doloremque ea nostrum incidunt corrupti esse, veritatis et reiciendis ad atque
+                        debitis
+                        repellendus quae animi aut, sunt culpa illo nobis porro saepe quos ex unde! Possimus ab harum
+                        esse
+                        modi eaque voluptate. Deserunt tempora reprehenderit ab placeat enim ut sapiente optio eum
+                        dolores
+                        assumenda hic ratione nostrum animi, odit laudantium? Enim harum architecto sunt natus ex
+                        adipisci
+                        dicta mollitia fuga, aspernatur vel, eligendi tempora itaque veritatis perferendis numquam sed
+                        cupiditate dolores iusto incidunt repudiandae tenetur. Vel quia, recusandae sapiente excepturi
+                        tempora exercitationem delectus tempore natus velit beatae consectetur dolorum pariatur
+                        repudiandae
+                        ea mollitia error praesentium et nulla commodi aperiam ut doloribus reprehenderit. Animi
+                        cupiditate
+                        corporis quam sapiente inventore quidem. Voluptates exercitationem eveniet veniam non deserunt
+                        doloremque vel, incidunt earum, animi blanditiis enim iusto laborum, et doloribus nam iure.
+                        Suscipit
+                        perferendis quis quia debitis? Mollitia, in porro? Eligendi, excepturi vitae!
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div>
@@ -105,14 +171,30 @@
                             class="fa-brands fa-instagram"></i></a></li>
                 <li><a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer"><i
                             class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><i
-                            class="fa-brands fa-whatsapp"></i></a></li>
+                <li>
+                    <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
             </ul>
         </div>
         <div>
             <p>Todos los derechos reservados</p>
         </div>
     </footer>
+
+    <!--CDN Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!--WOW JS-->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
 </body>
 
 </html>
