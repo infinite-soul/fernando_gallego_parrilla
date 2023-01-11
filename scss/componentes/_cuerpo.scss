@@ -1,0 +1,66 @@
+
+h1 {
+	text-align: center;
+}
+
+p {
+	margin-bottom: none;
+}
+
+a {
+	text-decoration: none;
+	color: $color_1;
+}
+main {
+	background-color: $background-color_1;
+	color: $color_2;	
+	ol {
+		padding: 30px;
+	}
+	ul {
+		padding: 30px;
+	}
+}
+article {
+	padding: 10px;
+}
+img {
+	width: 100%;
+}
+.parrafo_medio {
+	display: flex;
+	padding: 15px;
+}
+
+#historia {
+	text-align: center;
+	padding: 20px;
+}
+form {
+	padding: 40px;
+}
+.imagen_principal {
+	display: flex;
+	justify-content: center;
+}
+.galeria {
+	display: flex;
+	padding: 5px;
+}
+.galeria_columna {
+	flex: 50%;
+	padding: 5px;
+}
+.parrafos_multiples {
+	display: flex;
+	padding: 5px;
+}
+.parrafos_multiples_mitad {
+	flex: 50%;
+	padding: 40px;
+}
+
+i {
+	font-size: 40px;
+}
+

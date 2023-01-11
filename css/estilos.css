@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/*Variables*/
+/*Reset de CSS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Glass Antiqua", sans-serif;
+}
+
+/*Barra de navegación*/
+header ul {
+    list-style-type: none;
+}
+
+header div img {
+    padding: 10px;
+    width: 15%;
+}
+
+.logo {
+    width: 40vh;
+    filter: invert(90%) sepia(25%) saturate(381%) hue-rotate(314deg) brightness(94%) contrast(86%);
+}
+
+.navegacion {
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+    justify-content: center;
+    align-items: end;
+}
+
+.navegacion li a {
+    padding: 10px;
+    background-color: #8d514f;
+    border-radius: 27.5px;
+    margin: 5px;
+    width: fit-content;
+}
+
+.navegacion li a:hover {
+    background-color: #3e1a15;
+}
+
+/*Parte principal de la web*/
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-bottom: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffb0b0;
+}
+
+main {
+    background-color: #e0c4b9;
+    color: black;
+}
+
+main ol {
+    padding: 30px;
+}
+
+main ul {
+    padding: 30px;
+}
+
+article {
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.parrafo_medio {
+    display: flex;
+    padding: 15px;
+}
+
+#historia {
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    padding: 40px;
+}
+
+.imagen_principal {
+    display: flex;
+    justify-content: center;
+}
+
+.galeria {
+    display: flex;
+    padding: 5px;
+}
+
+.galeria_columna {
+    flex: 50%;
+    padding: 5px;
+}
+
+.parrafos_multiples {
+    display: flex;
+    padding: 5px;
+}
+
+.parrafos_multiples_mitad {
+    flex: 50%;
+    padding: 40px;
+}
+
+i {
+    font-size: 40px;
+}
+
+/*Footer*/
+footer {
+    background-color: #652120;
+    display: flex;
+    flex-direction: column;
+    color: #ffb0b0;
+}
+
+footer div {
+    width: 100%;
+}
+
+footer div p {
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    margin: 20px;
+}
+
+ul li a i {
+    font-size: 50px;
+}
+
+.redes_sociales {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
