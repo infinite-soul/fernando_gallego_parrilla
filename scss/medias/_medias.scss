@@ -1,42 +1,50 @@
 @media (max-width: 768px) {
 	.parrafos_multiples {
 		flex-direction: column;
-		padding: 5px;
 	}
 	.galeria {
 		flex-direction: column;
-		padding: 5px;
 	}
 	.galeria_columna {
 		flex-direction: column;
-		padding: 5px;
+	}
+	.formulario {
+		width: 100%;
 	}
 }
+
+@media (max-width: 1000px) {
+	.parrafos_multiples {
+		flex-direction: column;
+	}
+	.galeria {
+		flex-direction: column;
+	}
+	.galeria_columna {
+		flex-direction: column;
+	}
+	.formulario {
+		width: 100%;
+	}
+}
+
 @media (max-width: 1200px) {
 	.parrafos_multiples {
 		flex-direction: column;
-		padding: 5px;
 	}
 	.galeria {
 		flex-direction: column;
-		padding: 5px;
 	}
 	.galeria_columna {
 		flex-direction: column;
-		padding: 5px;
+	}
+	.formulario {
+		width: 35%;
 	}
 }
-@media (max-width: 1440px) {
-	.parrafos_multiples {
-		flex-direction: column;
-		padding: 5px;
-	}
-	.galeria {
-		flex-direction: column;
-		padding: 5px;
-	}
-	.galeria_columna {
-		flex-direction: column;
-		padding: 0px;
+
+@media (min-width: 1201px) {
+	.formulario {
+		width: 25%;
 	}
 }

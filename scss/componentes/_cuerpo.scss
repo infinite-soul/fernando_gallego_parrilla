@@ -1,32 +1,39 @@
-
 h1 {
 	text-align: center;
 }
 
-p {
-	margin-bottom: none;
-}
+
 
 a {
 	text-decoration: none;
 	color: $color_1;
 }
+
 main {
 	background-color: $background-color_1;
-	color: $color_2;	
-	ol {
-		padding: 30px;
+	color: $color_2;
+	font-size: 25px;
+
+	p {
+		margin-bottom: none;
+		padding: 40px;
 	}
-	ul {
-		padding: 30px;
+
+	ul, ol {
+		padding-left: 100px;
+		padding-right: 100px;
 	}
 }
+
 article {
 	padding: 10px;
 }
+
 img {
 	width: 100%;
+	padding-bottom: 2vh;
 }
+
 .parrafo_medio {
 	display: flex;
 	padding: 15px;
@@ -36,31 +43,50 @@ img {
 	text-align: center;
 	padding: 20px;
 }
+
 form {
 	padding: 40px;
 }
-.imagen_principal {
-	display: flex;
-	justify-content: center;
+
+.texto_principal {
+	color: $color_3;
 }
+
+.fondo_imagen {
+	background-image: url('https://www.shutterstock.com/shutterstock/videos/1036877978/thumb/1.jpg?ip=x480');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
 .galeria {
 	display: flex;
 	padding: 5px;
 }
+
 .galeria_columna {
 	flex: 50%;
 	padding: 5px;
 }
+
 .parrafos_multiples {
 	display: flex;
 	padding: 5px;
 }
+
 .parrafos_multiples_mitad {
-	flex: 50%;
+	padding: 50px;
+}
+
+.contenedor_flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.padding_especial{
 	padding: 40px;
 }
 
 i {
 	font-size: 40px;
 }
-

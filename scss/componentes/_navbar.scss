@@ -10,6 +10,8 @@ header {
 		}
 	}
 }
+
+/*Filtro específico para el color del logo*/
 .logo {
 	width: 40vh;
 	filter: invert(90%) sepia(25%) saturate(381%) hue-rotate(314deg) brightness(94%) contrast(86%);

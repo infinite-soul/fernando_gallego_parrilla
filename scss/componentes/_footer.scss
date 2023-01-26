@@ -3,24 +3,37 @@ footer {
 	display: flex;
 	flex-direction: column;
 	color: $color_1;
+
+	ul {
+
+		li {
+			list-style-type: none;
+
+
+			a {
+				margin: 15px;
+				text-decoration: none;
+				font-size: 35px;
+			}
+		}
+	}
+
 	div {
 		width: 100%;
+
+		padding: none;
+
 		p {
 			text-align: center;
 		}
 	}
 }
 
-ul {
 
-	li {
-		list-style-type: none;
-		a {
-			margin: 20px;
-			i {
-				font-size: 50px;
-			}
-		}
+
+.fa-brands {
+	&:hover {
+		color: $background-color_1;
 	}
 }
 
